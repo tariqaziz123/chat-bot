@@ -10,7 +10,7 @@ client.once('ready', () =>{
             console.log(`- ${channel.name} ${channel.type} ${channel.id}`)
         });
     });
-    var generalChannel = client.channels.cache.get("761104476757033011")
+    var generalChannel = client.channels.cache.get("client name")
     generalChannel.send('Hello, world!!')*/
 });
 client.on('message', message =>{
@@ -36,4 +36,4 @@ client.on('message', message =>{
     }
 }) 
 
-client.login('NzYxMTA1MzM5MzA2OTk5ODE4.X3VwlQ.uZIq6KUuCMJym529NriqSPUKeb0')
+client.login('token')
